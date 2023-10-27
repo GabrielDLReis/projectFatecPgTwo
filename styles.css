@@ -1,0 +1,144 @@
+:root {
+    --light_bege: #EFF6e0;
+    --light_green: #AEC3B0;
+    --blue_navi: #598392;
+    --military_blue: #124559;
+    --black_to_blue: #01161E;
+}
+
+* {
+      
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Welcome*/
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 2rem;
+    
+    font-size: 3rem;
+    
+
+}
+
+.flask {
+    position: absolute;
+    width: 3em;
+    height: 3em;
+
+    top: 1.4em;
+
+    left: 9em;
+}
+
+.title {
+    background-color: white;
+    width: 100%;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+h2 {
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+    font-family: 'Zilla Slab', serif;
+    display: inline;
+    margin-left: 2rem;
+    
+    width: 100;
+    
+    
+}
+
+.subtitle {
+    color: white;
+    background-color: black;
+    padding: 1rem 1rem 1rem 1rem;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1;
+    float: right;
+    margin-top: 5px;
+    
+}
+
+.navbar p {
+    margin-top: 1rem;
+    
+}
+
+.navbar p, a {
+
+    
+    margin-left: 1rem;
+
+    color: white;
+    text-decoration: none;
+    width: 30rem;
+    display: flexbox;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: .2em;
+    
+}
+
+.navbar a {
+    background-color: white;
+    padding: 1rem 1rem 1rem 1rem;
+    color: black;
+}
+
+/*
+home page
+*/
+
+.home {
+    margin-top: 9rem;
+    margin-left: 2rem;
+    
+    padding: 0 0 0 2rem;
+    width: 40em;
+}
+
+.home {
+    font-family: 'Zilla Slab', serif;
+    position: absolute;
+}
+
+.runTexts {
+    width: 18rem;
+    position: absolute;
+    margin-top: 1rem;
+}
+
+.runTexts p {
+    
+    font-style: italic;
+    display: inline;
+    opacity: .6;
+}
+
+.imageRotate {
+    position: absolute;
+    right: -40em;
+    top: -1em;
+    
+    border-radius: 300px;
+}
+.imageRotate img {
+    
+    max-width:50rem;
+    max-height:50rem;
+    width: auto;
+    height: auto;
+
+    border-radius: 10px;
+    
+}
