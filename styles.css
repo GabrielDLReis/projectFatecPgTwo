@@ -110,9 +110,7 @@ home page
     
     padding: 0 0 0 2rem;
     width: 40em;
-}
 
-.home {
     font-family: 'Zilla Slab', serif;
     position: absolute;
 }
@@ -124,7 +122,7 @@ home page
     margin-left: 4em;
 }
 
-#buttonL {
+#buttonLeft {
     position: absolute;
     top: 1.4rem;
     left: -4.8rem;
@@ -144,7 +142,7 @@ home page
 
     cursor: pointer;
 }
-#buttonL:hover {
+#buttonLeft:hover {
     background-color: var(--blue_navi);
     opacity: 1;
     border-radius: .1em;
@@ -160,7 +158,7 @@ home page
     opacity: .6;
 }
 
-#buttonR {
+#buttonRight {
     position: absolute;
     bottom: 1rem;
     background-color: transparent;
@@ -184,7 +182,7 @@ home page
     left: 20rem;
 }
 
-#buttonR:hover {
+#buttonRight:hover {
     background-color: var(--blue_navi);
     opacity: 1;
     border-radius: .1em;
@@ -192,15 +190,51 @@ home page
     
 }
 
-.imageRotate {
+.socialMedia {
+    position: absolute;
+    top: 15rem;
+    left: 5rem;
+
+    
+    width: 20rem;
+
+height: 4rem;
+
+    
+}
+
+.socialMedia h3 p{
+    text-align: center;
+}
+
+#social {
+    margin-left: 1.7rem;
+    height: 2.7rem;
+}
+
+#social a img {
+    position: relativeG;
+    margin: 0 .5rem 0rem .5rem;
+    width: 3rem;
+    height: 3rem;
+    transition: 0.5s ease-in-out;
+}
+
+#social a img:hover {
+   width: 5rem;
+   height: 5rem;
+}
+
+
+
+aside img {
+    
     position: absolute;
     right: -40em;
     top: -1em;
     
     border-radius: 300px;
-}
-.imageRotate img {
-    
+
     max-width:50rem;
     max-height:50rem;
     width: auto;
